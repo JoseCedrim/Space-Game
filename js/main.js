@@ -289,7 +289,7 @@ function game() {
                     asteroids[i].width,
                     asteroids[i].height,
                     -(asteroids[i].width / 5 / asteroids[i].size) /8,
-                    asteroids[i].moveY += 3/(asteroids[i].size),
+                    asteroids[i].moveY += 1/(asteroids[i].size),
                     asteroids[i].width / 5 / asteroids[i].size,
                     asteroids[i].height / 5 / asteroids[i].size
                 );
